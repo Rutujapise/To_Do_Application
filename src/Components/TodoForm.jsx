@@ -11,9 +11,10 @@ const TodoForm = () => {
 
   function handleSubmit(event) {
     event.preventDefault();
-    let payload = { name, description };
+    const payload = { name,
+      id:Date.now(), description }; 
 
-    dispatch({ type: "ADD_TODO", payload });
+    dispatch({ type: "ADD_TODO", payload : {name,description}});
     navigate("/");
   }
 
