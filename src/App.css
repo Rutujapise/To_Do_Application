@@ -1,0 +1,162 @@
+/* ================================
+   Global Styles
+================================= */
+body {
+  font-family:'Times New Roman', Times, serif;
+  background: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page Container */
+.container {
+  max-width: 1200px;
+}
+
+/* Section Titles */
+h1, h2, h3, h4, h5 {
+  font-weight: 800;
+}
+
+/* ================================
+   Navbar
+================================= */
+.navbar {
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  padding: 12px 20px;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff !important;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  color: #e0e7ff !important;
+  font-weight: 700;
+  margin: 0 8px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #fff !important;
+  text-decoration: underline;
+}
+
+/* ================================
+   Home Page
+================================= */
+.home-hero {
+  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  color: #fff;
+  padding: 80px 20px;
+  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.home-hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.home-hero p {
+  font-size: 2.2rem;
+  opacity: 0.9;
+}
+
+/* ================================
+   ToDo List
+================================= */
+.card {
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: #4f46e5;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1.95rem;
+  color: #555;
+}
+
+.btn-warning {
+  background-color: #f59e0b;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #d97706;
+}
+
+.btn-danger {
+  background-color: #ef4444;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #dc2626;
+}
+
+.btn-link {
+  color: #3b82f6;
+  font-size: 1.9rem;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+/* ================================
+   About Page
+================================= */
+.card-title {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.card-body ul li {
+  margin-bottom: 6px;
+  font-size:1.95rem ;
+}
+
+.about-footer {
+  margin-top: 40px;
+  font-size: 1.95rem;
+  font-weight: 500;
+  color: #6b7280;
+}
+
+/* ================================
+   Search + Dropdown Section
+================================= */
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1.95rem;
+}
+
+.dropdown-toggle {
+  border-radius: 8px;
+  font-size: 1.95rem;
+}
+
+.dropdown-menu {
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  font-size: 1.95rem;
+}
